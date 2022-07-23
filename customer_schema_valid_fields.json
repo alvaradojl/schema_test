@@ -24,6 +24,10 @@
             "description": "Country where organization is established",
             "type": "string"
         },
+        "state": {
+            "description": "Country's state of customer organization",
+            "type": "string"
+        },
         "city": {
             "description": "City where organization is established",
             "type": "string"
@@ -55,6 +59,7 @@
         "contactFirstName",
         "contactLastName",
         "country", 
+        "state",
         "city",
         "postalCode",
         "addressLine1",
