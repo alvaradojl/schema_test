@@ -24,12 +24,8 @@
             "description": "Country where organization is established",
             "type": "string"
         },
-        "creditLimit": {
-            "description": "Credit limit amount for customer organization",
-            "type": "string"
-        },
-        "phone": {
-            "description": "Phone number of organization's contact person",
+        "city": {
+            "description": "City where organization is established",
             "type": "string"
         },
         "postalCode": {
@@ -40,6 +36,14 @@
             "description": "First address line of customer organization",
             "type": "string"
         }, 
+        "phone": {
+            "description": "Phone number of organization's contact person",
+            "type": "string"
+        },
+        "creditLimit": {
+            "description": "Credit limit amount for customer organization",
+            "type": "string"
+        },
         "salesRepEmployeeNumber": {
             "description": "Employee number of sales representative of customer organization",
             "type": "string"
@@ -50,11 +54,12 @@
         "customerName",
         "contactFirstName",
         "contactLastName",
-        "country",
-        "creditLimit",
-        "phone",
+        "country", 
+        "city",
         "postalCode",
         "addressLine1",
+        "phone",
+        "creditLimit",
         "salesRepEmployeeNumber"
      
     ]
