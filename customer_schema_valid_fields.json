@@ -35,19 +35,11 @@
         "postalCode": {
             "description": "Postal code of customer organization",
             "type": "string"
-        },
-        "state": {
-            "description": "Country's state of customer organization",
-            "type": "string"
-        },
+        }, 
         "addressLine1": {
             "description": "First address line of customer organization",
             "type": "string"
-        },
-        "addressLine2": {
-            "description": "Second address line of customer organization",
-            "type": "string"
-        },
+        }, 
         "salesRepEmployeeNumber": {
             "description": "Employee number of sales representative of customer organization",
             "type": "string"
