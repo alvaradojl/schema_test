@@ -1,0 +1,69 @@
+{
+    "$id": "https://raw.githubusercontent.com/alvaradojl/schema_test/master/customer_schema_valid_fields.json",
+    "$comment": "This validation should succeed",
+    "title": "CustomerOrganization",
+    "type": "object",
+    "properties": {
+        "customerNumber": {
+            "description": "Customer organization identifier",
+            "type": "string"
+        },
+        "customerName": {
+            "description": "Customer organization name",
+            "type": "string"
+        },
+        "contactFirstName": {
+            "description": "First name of contact",
+            "type": "string"
+        },
+        "contactLastName": {
+            "description": "Last name of contact",
+            "type": "string"
+        },
+        "country": {
+            "description": "Country where organization is established",
+            "type": "string"
+        },
+        "creditLimit": {
+            "description": "Credit limit amount for customer organization",
+            "type": "string"
+        },
+        "phone": {
+            "description": "Phone number of organization's contact person",
+            "type": "string"
+        },
+        "postalCode": {
+            "description": "Postal code of customer organization",
+            "type": "string"
+        },
+        "state": {
+            "description": "Country's state of customer organization",
+            "type": "string"
+        },
+        "addressLine1": {
+            "description": "First address line of customer organization",
+            "type": "string"
+        },
+        "addressLine2": {
+            "description": "Second address line of customer organization",
+            "type": "string"
+        },
+        "salesRepEmployeeNumber": {
+            "description": "Employee number of sales representative of customer organization",
+            "type": "string"
+        }
+    },
+    "required": [
+        "customerNumber",
+        "customerName",
+        "contactFirstName",
+        "contactLastName",
+        "country",
+        "creditLimit",
+        "phone",
+        "postalCode",
+        "addressLine1",
+        "salesRepEmployeeNumber"
+     
+    ]
+}

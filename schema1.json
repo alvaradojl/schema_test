@@ -1,5 +1,5 @@
 {
-    "$id": "https://qri.io/schema/",
+    "$id": "https://raw.githubusercontent.com/alvaradojl/schema_test/master/schema1.json",
     "$comment" : "sample comment",
     "title": "Person",
     "type": "object",
